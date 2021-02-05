@@ -1,0 +1,203 @@
+
+body {
+	height: 0;
+	background: #fff;
+	min-height: 0;
+	margin: 0;
+}
+
+
+header {
+	position: fixed;
+	display: flex;
+	top: 0;
+	left: 0;
+	width: 80%;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.6s;
+	padding: 1px;
+	z-index: 100000;
+}
+
+
+header ul {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	align-items: center;
+	font-size: 1.2rem;
+	transition: 0.6s;
+}
+
+
+header li a{
+	position: relative;
+	margin: 0 15px;
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 2px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 50px;
+	font-weight: bold;
+}
+
+
+h1 {
+	position: static;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 6.75em;
+  line-height: 4.5rem;
+  font-weight: 400;
+}
+
+
+h2 {
+	width: 90%;
+	font-family: 'Noto Sans TC', sans-serif;
+	line-height: 2;
+}
+
+
+hr {
+	color: #DDDDDD;
+  border: dotted 6px;
+  border-bottom: none;
+  width: 4%;
+	margin-bottom: 5%;
+}
+
+
+.mid-hr {
+	width: 90%;
+	font-size: 4em;
+	color: #07D6FE;
+	position: static;
+}
+
+
+.hr-box {
+	width: 40%;
+	position: relative;
+	bottom: 15vh;
+	left: 60%;
+}
+
+
+.logo-img {
+	position: relative;
+	border-radius: 100%;
+	width: 50px;
+	left: 30%;
+}
+
+
+.banner {
+	background-color: #0E1A26;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding-bottom: 0;
+	height: 55px;
+	background-size: cover;
+}
+
+
+.bg-img {
+	display: flex;
+	padding-top: 2%;
+	width: 100%;
+}
+
+
+.top-container {
+	margin: 0 50px;
+  position: inherit;
+  color: black;
+}
+
+
+.mid-container {
+	margin: 5px 50px;
+	padding: 100px 30px 100px 30px;
+	background-color: #eff8ff;
+}
+
+
+.bottom-container {
+	background-color:#E6A53F;
+	padding: 20px ;
+	text-align: center;
+}
+
+
+.title-box {
+	width: 30%;
+	color: #fff;
+	position: absolute;
+  top: 50%;
+	left: 70%;
+	right: 10px;
+  transform: translate(-50%, -50%);
+}
+
+
+.title-text {
+	position: static;
+	font-size: 8vh;
+	line-height: 2;
+	text-align: right;
+	margin: 0;
+}
+
+
+.box-image1 {
+
+	position: static;
+	width: 20%;
+	left: 50px
+}
+
+
+.box-image2 {
+	position: static;
+	width: 20%;
+}
+
+
+.box-image3 {
+	position: static;
+	width: 20%;
+	left: 620px;
+}
+
+
+.stamp1 {
+	position: static;
+	width: 8%;
+	padding-left: 6%;
+	padding-bottom: 2%;
+}
+
+
+.music-img {
+	width: 25%;
+	position: absolute;
+	left: 35%;
+}
+
+
+.about-image {
+	position: relative;
+	width: 40%;
+	left: 100px
+}
+
+
+.contact-image {
+	position: relative;
+	width: 30%;
+	left: 200px
+}
